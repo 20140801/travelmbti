@@ -152,7 +152,7 @@ public class Main {
 		//just MBTI
 		else if(whatTest.equals("2")) {
 			// mbtidata.csv의 절대 경로입니다. 컴퓨터마다 다르게 설정해주시기 바랍니다.  
-			String mbtipath="C:\\Users\\home\\eclipse-workspace\\MFP\\src\\mbtidata.csv";
+			String mbtipath="src\\mbtidata.csv";
 			String mbtiline="";
 			String mbti="";
 			Scanner scan = new Scanner(System.in);
@@ -205,7 +205,7 @@ public class Main {
 			}
 		}
 		//citydata.csv 절대경로 입니다. 컴퓨터 파일 위치에 따라서 경로를 다르게 설정해주시기 바랍니다.
-		String path1="C:\\Users\\home\\eclipse-workspace\\MFP\\src\\citydata.csv";
+		String path1="src\\citydata.csv";
 		String line="";
 		int MAXCITY=50;
 		City Cities[]=new City[MAXCITY];
